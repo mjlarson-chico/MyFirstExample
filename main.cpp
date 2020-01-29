@@ -2,6 +2,7 @@
 
 using std::cin;
 using std::cout;
+using std::endl;
 
 int main()
 {
@@ -11,6 +12,11 @@ int main()
     cout << "Hi, please enter two numbers: ";
     cin >> input1 >> input2;
     cout << "The sum of your numbers is: " << input1 + input2;
+
+    int x,y;
+
+    cin >> x >> y;
+    cout << x + y << endl;
 
     return 0;
 }
